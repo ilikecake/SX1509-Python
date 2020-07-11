@@ -27,6 +27,8 @@ I include a sample python script (Example.py) to show the basic setup and usage 
 * Pin 3 is a digital out attached to the shutdown pin of a small PAM8403 speaker amp. Setting this pin low mutes the amp when not in use.
 * Pin 10 is a digital input attached to a tactile switch. This pin is debounced. I intend to use this pin to gracefully shut down the Pi when pressed.
 
+A note about the LEDs: I have attached them to the expander on the low side. This means that the LED cathode (- lead) is attached to the expander pin. The anode (+ lead) is attached to the 5V power supply. Make sure to include current limiting resistors on your LEDs, this is not a constant current LED driver.
+
 ## Porting
 
 As I said above, this code should work with any CPU that can run python 3 with a few modification. In order to port this code to a different controller, you will need to update the functions at the bottom of the library that are hardware specific:
