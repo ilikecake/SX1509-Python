@@ -16,7 +16,7 @@ More info on the hardware can be found on the [Sparkfun product page](https://ww
 
 This code was built and tested on a Raspberry Pi (B 3+). It should run okay on anything that can run Python code with a few modification. More on this in a bit.
 
-The code uses the Adafruit Blinka libraries for I2C communication. To install these libraries on your Raspberry Pi, follow [Adafuit's excellent tutorial](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi). I was not super happy with doing it this way, but it is the was the easiest way I found that did not require me to write my own I2C code. This is not a dig at the Adafruit libraries. They seem quite good and well maintained, but relying on them will make porting this code to a different CPU more difficult in the future. I don't really plan on doing this, however, so I am not too bothered by it.
+The code uses the Adafruit Blinka libraries for I2C communication. To install these libraries on your Raspberry Pi, follow [Adafuit's excellent tutorial](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi). I was not super happy with doing it this way, but it is the was the easiest way I found that did not require me to write my own I2C code. This is not a dig at the Adafruit libraries, they seem quite good and well maintained. However, relying on them will make porting this code to a different CPUs more difficult in the future. I don't really plan on doing this, however, so I am not too bothered by it.
 
 ## Example
 
