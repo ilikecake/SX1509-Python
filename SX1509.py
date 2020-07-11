@@ -19,8 +19,6 @@
 #  Original Creation Date: September 21, 2015
 #  https://github.com/sparkfun/SparkFun_SX1509_Arduino_Library
 
-#TODO: Look up @parameters
-#TODO: fix code to properly deactivate blink mode
 #TODO: Move the registers to a new file?
 
 from adafruit_bus_device import i2c_device
